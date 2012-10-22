@@ -1,0 +1,26 @@
+
+Crie um pacote chamado parte1 dentro de um pacote chamado fundamentos e crie classes separadas dentro dele para cada um dos cinco primeiros exercícios.
+
+1) Escreva um programa que mostre uma mensagem de boas vindas composta pelo seu nome e sobrenome.
+
+2) Escreva um programa que recebe o nome do usuário e mostra uma mensagem de boas vindas baseada nesse nome. Para receber valores na linha de comando você pode usar a classe Scanner.
+Ex.:
+System.out.println("Entre com o nome:");
+Scanner s = new Scanner(System.in);
+String nome = s.nextLine();
+
+3) Qual será o valor impresso na tela após o término da execução do código abaixo (procure responder esta questão sem executar o código no editor):
+
+public class Exercicio_3 {
+  public static void main(String[] args) {
+    int a = 10;        
+    int b = a++; // Dica: acontece depois da soma
+    int c = ++b; // Dica: acontece antes da soma
+    System.out.println(a + b + c);
+  }
+}
+
+4) Escreva um programa que calcule e escreva o perímetro de uma circunferência, sendo pedido ao usuário o tamanho do raio. Dica: perímetro = 2 x PI x raio.
+
+5) Escreva um programa que calcula a hipotenusa de um triângulo retângulo a partir do tamanho dos catetos. Dica: quadrado da hipotenusa = soma dos quadrados dos catetos. Use o método "Math.sqrt(double valor)" da biblioteca de matemática do Java para obter a raiz quadrada de um número.
+

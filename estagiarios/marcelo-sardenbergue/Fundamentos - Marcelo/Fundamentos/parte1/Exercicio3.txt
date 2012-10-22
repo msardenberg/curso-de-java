@@ -1,0 +1,13 @@
+No final da execução do programa:
+
+a= 11
+b= 11
+c= 11
+
+Soma = 33
+
+Humilde observação Fred:
+
+os incrementos são feitos antes ou depois da operação (no caso, após ou antes, da atribuição) e não dá soma. Porquanto a soma só vem no "syso".
+
+Caso eu esteja errado, por favor me informe.

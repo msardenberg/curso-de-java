@@ -1,0 +1,69 @@
+As questões devem ser respondidas sem o uso do compilador.
+
+Questão 1)
+
+Quais linhas compilariam sem gerar erro? Qual o motivo para cada uma das outras gerar erro?
+
+1) float f = 1.3; // FUNCIONA
+2) char c = "a"; // ERRO deveria estar entre plic e não aspas duplas
+3) byte b = 257; // ERRO byte so pode receber combinacões de 0 e 1
+4) boolean b = null;// ERRO a variavel boolean é primitiva
+5) int i = 10; // FUNCIONA
+ 
+Questão 2)
+
+Quais palavras abaixo são reservadas no Java?
+
+1) if     (X)
+2) then   ( )
+3) goto   (X)
+4) while  (X)
+5) select ( ) 
+6) case   (X)
+
+Questão 3)
+
+Quais os identificadores válidos?
+
+1) 2variable
+2) variable2
+3) _whatavariable
+4) _3_
+5) $anothervar
+6) #myvar
+
+Questão 4)
+
+class TestaOperadores {
+  static boolean teste(String s, boolean b) {
+    System.out.print(s + (b ? "T" : "F"));
+    return b;
+  }
+  public static void main(String[] args) {
+    teste("A", teste("B",false) || teste("C",true) || teste("D",false));
+  }
+}
+
+Qual o resultado ao tentar compilar e rodar o código acima? (responder sem compilar!)
+
+c. 	Escreve: BFCTAT
+
+Questão 5)
+
+class TestaBooleanos {
+  public static void main(String[] args) {
+    boolean b = true;
+    if (b = false) {
+    	System.out.print("A");
+    } else if (b) {
+    	System.out.print("B");
+    } else {
+    	System.out.print("C");
+    }
+  }
+}
+
+Qual o resultado ao tentar compilar e rodar o código acima?
+
+c. 	Escreve: C
+

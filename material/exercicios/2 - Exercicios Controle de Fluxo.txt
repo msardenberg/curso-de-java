@@ -1,0 +1,23 @@
+
+Escreva uma classe chamada Exercicios em um novo pacote chamado parte2 dentro de fundamentos e para cada exercício abaixo crie um método na classe Exercicios com o nome no formato "exercicio_X" onde X é o número do exercício. Crie um método "public static void main" que será usado para testar os demais métodos da classe.
+
+1) Escreva um programa que recebe um valor inteiro e informa se ele é positivo, negativo ou zero.
+
+2) A classe String possui o método "length()" que retorna a quantidade de caracteres. Porém, ele leva em conta também os espaços em branco. Escreva um método que recebe um texto qualquer e retorna a quantidade de caracteres que foi passada descontando esses espaços em branco. Dica: use o método "toCharArray()" para obter os caracteres da String e percorrê-los, testando se não são espaços em branco e armazenado em uma variável a quantidade que será retornada ao término da execução do método.
+
+3) Escreva um método que retorne a soma de todos os números de 1 até 9999.
+
+4) Escreva um método que retorne a soma de todos os números de 1 até um valor qualquer que ele deverá receber como parâmetro.
+
+5) Escreva um método que retorne a soma de todos os números pares de 1 até um valor qualquer que ele deverá receber como parâmetro.
+
+6) Escreva um método que retorne quantos múltiplos de 3 existem entre 1 e 1000. E no momento em que estiver contado também imprima na tela o número que for múltiplo.
+
+7) Escreva um método que recebe o valor do salário base de um funcionário e o valor de sua comissão e retorna o salário somado a comissão. A comissão deverá ser acrescida de um bônus de 20% antes de ser somada ao salário base. Qual tipo de dado entre os tipos primitivos melhor se encaixaria para lidar com os valores da questão?
+
+8) Escreva um método que recebe do usuário em um "loop" um valor digitado que corresponderá ao salário e outro valor que corresponderá a comissão. Ele então escreve na tela a soma desses valores e fica aguardando para receber os próximos dois valores até que os valores digitados sejam ambos zero. Dica: use a classe Scanner e o método "nextDouble()" para capturar o salário e em seguida a comissão.
+
+9) Escreva um método que recebe o número equivalente ao mês (1 a 12) e escreve o nome do mês.
+
+10) Escreva um método que receba um valor representando os segundos e converta este valor para minutos.
+

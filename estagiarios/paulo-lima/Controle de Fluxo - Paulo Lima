@@ -1,0 +1,11 @@
+public static void main(String[] args) {
+        System.out.println(contaChar("Bem vindos a empresa Ideais"));
+}
+public static int contaChar(String frase){
+        int cont=0;
+        for(int i = 0; i <frase.length(); i++)
+            if(frase.charAt(i) != ' '){
+                cont++;
+            }
+        return cont;
+}

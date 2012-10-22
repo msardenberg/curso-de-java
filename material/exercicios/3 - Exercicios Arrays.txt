@@ -1,0 +1,38 @@
+Exercícios - Arrays
+
+1- Declare e construa um array 2 x 4 de inteiros
+
+int[][] matriz = new int[2][4]; 
+
+2- Cite duas formas de se declarar um array
+
+int[] numeros;
+int numeros[];
+
+3- Percorra com um (ou mais) laço(s) for o array criado no exercício 1 e preencha cada posição do mesmo com a soma do índice da linha com o índice da coluna
+
+4- Qual o valor padrão dos tipos abaixo?
+
+a) int e long: 0
+b) double e float: 0
+c) boolean: false
+d) referências para objetos: null
+
+5- Declare, construa e inicialize um array de inteiros unidimensional de 5 posições com os valores 1, 2, 3, 4 e 5 usando apenas uma linha de código
+
+6- Crie uma classe chamada Pessoa com o atributo privado nome, um atributo privado sobrenome e um construtor público que recebe como parâmetro um nome e sobrenome e configura os atributos. Crie também um método de acesso público que retorne a concatenação de nome e sobrenome. Dê um nome coerente para esse método. Obs.: Apenas os métodos e atributos citados devem ser criados
+
+7- Crie e preencha um array unidimensional de 4 posições com objetos do tipo Pessoa
+
+8- Percorra o array criado no exercício anterior e imprima na tela com System.out.println a chamada ao método público que você criou em Pessoa para cada instância no array
+
+9- Quais declarações de array estão incorretas?
+
+a) int[] a = 22;
+b) int[] a = [22];
+c) int[22] a;
+d) int a[] = new int[22];
+e) int[] a = {1, 2, 3, 4};
+f) int a = {1, 2, 3, 4};
+
+10- Passe através de linha de comando para um método public static void main quatro números e imprima na tela a soma desses números: (Dica: use Integer.parseInt para converter de String para int cada valor recebido)
