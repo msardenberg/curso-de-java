@@ -1,0 +1,7 @@
+Escreva um programa para armazenar estatísticas de uma simulação de um jogo de dados seguindo os passos abaixo:
+
+- Criar um array de 6 posições que incrementará o valor armazenado em cada posição cada vez que o resultado randômico contemplar o respectivo índice
+- Inicializar cada posição com zero
+- Receber do usuário quantas vezes o dado será jogado
+- Para cada jogada do dado, sortear um número aleatório entre 6, e incrementar o valor da posição correspondente no array
+- Após todas as jogadas de dados, percorrer o array e exibir a quantidade de vezes que cada índice foi sorteado

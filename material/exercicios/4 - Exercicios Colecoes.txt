@@ -1,0 +1,21 @@
+1 - Gere todos os números entre 1 e 1000 e ordene em ordem decrescente utilizando um TreeSet.
+
+2 - Crie uma classe Lembrete com um atributo List<String> tarefas. Em um método main, crie um mapa cujas chaves serão os dias da semana (String) e os valores serão objetos da classe Lembrete. Escreva algum código demonstrando a estrutura criada.
+
+3 - Implemente um programa que receberá do usuário duas relações de números inteiros positivos e um caractere representando uma das seguintes operações:
++ união
+* interseção
+
+O programa deve retornar o resultado da operação sobre os dois grupos de números. Ex.:
+
+Entrada                       Saída
+-------------------------     -------------------
+1, 2, 3
++
+3, 5, 7                       1, 2, 3, 5, 7
+
+10, 9, 8, 7
+*
+2, 4, 6, 8                    8
+
+4 - Implemente um programa para medir o tempo de execução de algumas classes da API de collections (pelo menos 4 delas) no que diz respeito a adicionar e percorrer elementos. Receba do usuário a quantidade de elementos que serão inseridos. Dica: Use System.currentTimeMillis() para pegar o tempo atual em milissegundos.

@@ -1,0 +1,16 @@
+1 - Crie a classe Carga com o atributo double peso. Ela terá um construtor e um método setter para o peso. Valide o peso (peso > 0) antes de jogar no atributo e caso seja inválido lance a exceção IllegalArgumentException do pacote lang.
+
+2 - Crie um pacote produtos. Dentro dele crie a classe Produto com os atributos codigo (Integer), descricao (String) e preco (BigDecimal). Crie para ela os métodos equals e hashCode (baseados no codigo), e faça com que implemente Comparable<Produto> baseando o compareTo na descrição. Sobrescreva também o método toString. Crie uma classe BuscaProdutos com um atributo TreeSet de produtos e com os métodos obterProduto(Integer codigo), exibirProdutos() e cargaInicial(). O método carga inicial será chamado para inicializar o treeset com alguns produtos. Crie uma exceção chamada ProdutoNaoEncontradoException que será lançada quando obterProduto não encontrar o produto referente ao código informado. Crie um método main para testar tudo que foi feito.
+
+3 - Abra um arquivo chamado series.tv em qualquer diretório e escreva o nome de suas 5 séries favoritas nele (uma por linha). Encerre o fluxo de escrita. Abra o arquivo e leia o conteúdo exibindo-o na saída. Encerre o fluxo de leitura.
+
+4 - Crie um programa que recebe do usuário uma url e exibe os headers devolvidos após submeter a url. As linhas abaixo realizam a conexão e devolvem os headers:
+
+URL url = new URL("http://www.google.com");
+URLConnection conexao = url.openConnection();
+Map<String, List<String>> headers = conexao.getHeaderFields();
+
+Percorra os headers através de suas chaves no mapa e exiba os valores. Capture as exceções que podem vir a ocorrer e exiba o retorno do método getMessage() da exceção.
+
+5 - Empacote o programa do exercício 4 num arquivo .jar executável. Dica: É preciso indicar qual classe é o ponto de entrada para execução do jar. Consulte a ajuda do utilitário jar com o comando jar --help
+Obs.: Substitua no exercício 4 as chamadas a Scanner por javax.swing.JOptionPane.showInputDialog e os printlns por javax.swing.JOptionPane.showMessageDialog para interagir graficamente com o programa.
